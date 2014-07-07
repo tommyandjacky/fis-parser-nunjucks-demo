@@ -1,0 +1,14 @@
+﻿{% extends "../layouts/default/layout.tmpl" %}
+
+{% block main %}
+<div class="article">
+    <h2> {{title}} </h2>
+    <h3>
+        <em>{{source}}</em>
+        <em>发布时间：{{pubdate}} </em>
+    </h3>
+    <div class="content">
+        {{content}}
+    </div>
+</div>
+{% endblock %}
